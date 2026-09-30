@@ -13,10 +13,10 @@ source:
   sha256: 24ce9fe9a069d049f6050231b81f2c9e00ad4f456801c002fb9a5bf15ebd6cc2
 
 build:
-  number: 0
+  number: 1
   script:
     env:
-      GOTOOLCHAIN: local   # never auto-download a newer Go toolchain
+      GOTOOLCHAIN: local # never auto-download a newer Go toolchain
       CGO_ENABLED: "0"
     content:
       - if: unix
